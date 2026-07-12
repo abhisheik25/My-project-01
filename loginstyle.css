@@ -1,0 +1,103 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color:lightsalmon;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logintitle{
+    background: #fff;
+    width: 350px;
+    min-height: 300px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.logintitle h1{
+    margin-bottom: 25px;
+}
+.email{
+    margin-bottom: 20px;
+    position: relative;
+}
+.email input{
+    padding: 5px 5px 5px 35px;
+    
+}
+.email i{
+    position: absolute;
+    top: 50%;
+    margin-left: 2px;
+    transform: translateY(-50%);
+}
+#password{
+    margin-bottom: 20px;
+    position: relative;
+}
+#password input{
+    padding: 5px 5px 5px 35px;
+    
+}
+#password i{
+    position: absolute;
+    top: 50%;
+    margin-left: 2px;
+    transform: translateY(-50%);
+}
+.loginbtn{
+    margin-bottom: 20px;
+    position: relative;
+}
+.loginbtn input{
+    padding: 5px 5px 5px 35px;
+    
+}
+.loginbtn i{
+    position: absolute;
+    top: 50%;
+    margin-left: 2px;
+    transform: translateY(-50%);
+}
+#checking{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 55px;
+}
+#checking label{
+    padding-left: 5px;
+}
+p{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.social{
+    padding: 20px;
+    position: relative;
+}
+.social button{
+    padding: 10px 10px 10px 35px ;
+    font-size: 14px;
+    cursor: pointer;
+}
+.social i{
+    position: absolute;
+    top: 50%;
+    margin-left: 5px;
+    transform: translateY(-50%);
+}
+.homepage{
+    padding-top: 20px;
+}
+.homepage a{
+    text-decoration: none;
+    color: black;
+}
